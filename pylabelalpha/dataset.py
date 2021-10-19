@@ -1,9 +1,9 @@
-from pylabel.analyze import Analyze
-from pylabel.exporter import Export
-from pylabel.visualize import Visualize
+from pylabelalpha.analyze import Analyze
+from pylabelalpha.exporter import Export
+from pylabelalpha.visualize import Visualize
 
-from pylabel.splitter import GroupShuffleSplit
-from pylabel.splitter import StratifiedGroupShuffleSplit
+from pylabelalpha.splitter import GroupShuffleSplit
+from pylabelalpha.splitter import StratifiedGroupShuffleSplit
 
 
 class Dataset:
